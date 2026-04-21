@@ -4,7 +4,7 @@ import sqlite3
 print("🚀 Starting ETL process...")
 
 # Extract
-data = pd.read_csv('sales.csv')
+data = pd.read_csv(r'C:\Users\HP\Documents\data_project\data\sales.csv')
 print("\n✅ Extracted Data:")
 print(data)
 
